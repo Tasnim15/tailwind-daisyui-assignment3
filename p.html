@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hockey’s</title>
+    <!-- cdn of daisy ui and tailwind -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.6.0/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- font awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"/>
+    <!-- google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@500;600;800&display=swap" rel="stylesheet">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        clifford: '#da373d',
+                        'btn-back': '#FF4240',
+                        'common-gray':'#BCED6D1A',
+                       
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        .font-manrope {
+            font-family: 'Manrope', sans-serif;
+        }
+        .para-color{
+            color: #13131899;
+            
+        }
+       
+    </style>
+</head>
+
+<body>
+    
+  <section class="text-center mt-32">
+    <h1 class="text-4xl font-extrabold my-6">Program Sections</h1>
+    <p class="para-color mb-8">Explore our diverse program sections, each tailored to provide a unique and enriching experience for your journey of growth and development </p>
+
+    <!-- card -->
+    <div class="grid grid-cols-1 lg:grid-cols-2 ">
+
+    
+    <!-- first card -->
+
+    <div class="card m-6 image-full ">
+        <figure><img class="w-full h-full  " src="./images/2.png" alt="" /></figure>
+        <div class="card-body space-y-8   lg:top-[30%] text-left">
+            <div class="space-y-4 ">
+          <h2 class="text-2xl font-extrabold">Junior Program </h2>
+          <p>Fueling young talent with our dynamic junior program</p>
+        </div>
+          <div class="card-actions justify-start">
+            <button class="btn text-white border-none bg-btn-back">Register Now</button>
+          </div>
+        </div>
+      </div>
+
+       <!-- second card -->
+       <div class="card  m-6 image-full ">
+        <figure><img class="w-full  " src="./images/3.png" alt="" /></figure>
+        <div class="card-body space-y-8  lg:top-[30%] text-left">
+            <div class="space-y-4">
+
+           
+          <h2 class="text-2xl font-extrabold">Teenager Program </h2>
+          <p>Foster teen talent with our dynamic program, shaping confident athletes for the future</p>
+        </div>
+          <div class="card-actions  justify-start">
+            <button class="btn text-white border-none bg-btn-back">Register Now</button>
+          </div>
+        </div>
+      </div>
+
+
+       <!-- third card -->
+       <div class="card  lg:h-[450px] mx-6 lg:col-span-2  image-full ">
+        <figure><img class="w-full " src="./images/4.png" alt="" /></figure>
+        <div class="card-body space-y-8  lg:top-[30%] text-left">
+            <div class="space-y-4">
+          <h2 class="text-2xl font-extrabold">Professional Program </h2>
+          <p>Excel with our pro program, designed for success</p>
+        </div>
+          <div class="card-actions justify-start">
+            <button class="btn text-white border-none bg-btn-back">Register Now</button>
+          </div>
+        </div>
+      </div>
+      
+</section>
+            
+    
+</body>
+</html>
